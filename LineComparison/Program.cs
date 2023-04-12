@@ -43,9 +43,13 @@
             {
                 Console.WriteLine("The two lines are equal.");
             }
+            else if (line1.CompareTo(line2) < 0)
+            {
+                Console.WriteLine("Line 1 is shorter than Line 2.");
+            }
             else
             {
-                Console.WriteLine("The two lines are not equal.");
+                Console.WriteLine("Line 1 is longer than Line 2.");
             }
         }
     }
